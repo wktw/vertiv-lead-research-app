@@ -92,3 +92,7 @@ Evidence-based B2B sales research and lead qualification for Vertiv 3-phase powe
 - [ ] API routes respond.
 - [ ] Review queue and CSV export flow validated.
 
+
+## Troubleshooting: Vercel blocks vulnerable Next.js builds
+
+If Vercel reports a vulnerable Next.js version (for CVE-2025-66478), upgrade `next` to a patched release line and redeploy. This repository pins Next.js to `15.3.6` to satisfy the patched 15.3.x line.
